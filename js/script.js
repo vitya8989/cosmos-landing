@@ -80,3 +80,12 @@ new Swiper('.what-credit-slider', {
 		},
 	},
 });
+
+new Swiper('.safe-slider', {
+	slidesPerView: 'auto',
+	breakpoints: {
+		1025: {
+			slidesPerView: 3,
+		},
+	},
+});
